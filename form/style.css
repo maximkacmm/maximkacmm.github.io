@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.conteiner {
+    padding: 1% 10%;
+    height: 100hv;
+}
+div {
+    padding: 5px;
+}
+legend {
+    margin: 0 0 0 10px;
+}
+.button {
+  padding: 5px 0;
+  border-radius: 20px;
+  
+}

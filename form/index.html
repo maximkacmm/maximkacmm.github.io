@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Personal Information</h1>
+            <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="POST" name="user_form">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                        <div>
+                            <label for="surname">Surname:</label>
+                            <input type="text" id="surname" name="user_surname">
+                        </div>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name">
+                            
+                        </div>
+                        <div>
+                            <label for="number">How old are You?:</label>
+                            <input type="number" id="number" name="user_number" min="0">
+                        </div>
+                        <div>
+                            <label for="date_of_birth">Full date of birth:</label>
+                            <input type="date" id="date_of_birth" name="user_date_birth">
+                        </div>
+                        <div>
+                                I accept the terms of the agreement
+                            <input type="checkbox">
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Registration</legend>
+                        <div>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_mail">
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" id="namber" name="user_namber">
+                        </div>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>An interesting fact about you!</legend>
+                        <div>
+                            <P>Do you love cats?</P>
+                            
+                            <input type="radio" id="yes" name="radio" value="Yes">
+                            <label for="yes">Yes</label>
+                                                        <br>
+                            <input type="radio" id="no" name="radio" value="No">
+                            <label for="no">No</label>
+                            
+                        </div>
+                        <div>
+                            <label for="color">What is your favorite color?</label>
+                            <br>
+                            <input type="color" id="color" name="color">
+                        </div>
+                        <div>    
+                            <p>What time do you go to bed?</p>
+                            <label for="time"></label>
+                            <input type="time" id="time" name="tame">   
+                        </div>
+                        <div>
+                            <p>What your favorite brand of cars?
+                             <br>   
+                            <select name="select" id="select" size="4">
+                             <option value="s1">BMW</option>   
+                            <option value="s2">Audi</option>
+                            <option value="s3">Lada</option>
+                            </select>
+                            </p>
+                        </div>
+
+                        <div>
+                           <label for="rate_our_work">How do you rate our work?</label>
+                           <br>
+                           <input type="range" id="rate_our_work" name="user_rate_our_work" >
+                        </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your comments:</legend>
+                        <div>
+                            <label for="comments"></label>
+                            <textarea type="comments" id="comments" name="user_comments" placeholder="Comments"></textarea>
+                        </div>
+                </fieldset>
+                <div class="button">
+                 
+                 <input type="button" value="Submit">
+                </div>
+            </form>
+    </div>
+
+</body>
+</html>
