@@ -14,83 +14,89 @@
                 <fieldset>
                     <legend>Personal Information</legend>
                         <div>
-                            <label for="surname">Surname:</label>
-                            <input type="text" id="surname" name="user_surname">
+                            <label >Surname:
+                                <input type="text" name="user_surname">
+                            </label>
                         </div>
                         <div>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name">
-                            
+                            <label>Name:
+                                <input type="text" name="user_name">
+                            </label> 
                         </div>
                         <div>
-                            <label for="number">How old are You?:</label>
-                            <input type="number" id="number" name="user_number" min="0">
+                            <label>How old are You?:
+                                <input type="number" name="user_age" min="0" max="100">
+                            </label> 
                         </div>
                         <div>
-                            <label for="date_of_birth">Full date of birth:</label>
-                            <input type="date" id="date_of_birth" name="user_date_birth">
+                            <label>Full date of birth:
+                                <input type="date" name="user_date">
+                            </label>   
                         </div>
                         <div>
-                                I accept the terms of the agreement
-                            <input type="checkbox">
+                            <label> I accept the terms of the agreement
+                                <input type="checkbox">
+                            </label>
                         </div>
                 </fieldset>
                 <fieldset>
                     <legend>Registration</legend>
                         <div>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_mail">
+                            <label>E-mail:
+                                <input type="email" name="user_mail">
+                            </label>
                         </div>
                         <div>
-                            <label for="password">Password</label>
-                            <input type="password" id="namber" name="user_namber">
+                            <label>Password
+                                <input type="password" name="user_password">
+                            </label>
                         </div>
-                    
                 </fieldset>
                 <fieldset>
                     <legend>An interesting fact about you!</legend>
                         <div>
-                            <P>Do you love cats?</P>
-                            
-                            <input type="radio" id="yes" name="radio" value="Yes">
-                            <label for="yes">Yes</label>
-                                                        <br>
-                            <input type="radio" id="no" name="radio" value="No">
-                            <label for="no">No</label>
-                            
+                            <label>Do you love cats?
+                                <br>
+                                    <input type="radio" name="radio" value="Yes">Yes
+                            </label>
+                                    <br>
+                            <label><input type="radio" name="radio" value="No">No
+                            </label> 
                         </div>
                         <div>
-                            <label for="color">What is your favorite color?</label>
-                            <br>
-                            <input type="color" id="color" name="color">
+                            <label>What is your favorite color?
+                                <br>
+                                <input type="color" name="color">
+                            </label> 
                         </div>
                         <div>    
-                            <p>What time do you go to bed?</p>
-                            <label for="time"></label>
-                            <input type="time" id="time" name="tame">   
+                            <label>What time do you go to bed?
+                                <input type="time" name="tame">
+                            </label> 
                         </div>
                         <div>
-                            <p>What your favorite brand of cars?
-                             <br>   
-                            <select name="select" id="select" size="4">
-                             <option value="s1">BMW</option>   
-                            <option value="s2">Audi</option>
-                            <option value="s3">Lada</option>
-                            </select>
-                            </p>
+                            <label>What your favorite brand of cars?
+                                <br>  
+                                <select name="select" size="4">
+                                    <option value="s1">BMW</option>   
+                                    <option value="s2">Audi</option>
+                                    <option value="s3">Lada</option>
+                                </select>
+                            </label>
                         </div>
-
                         <div>
-                           <label for="rate_our_work">How do you rate our work?</label>
-                           <br>
-                           <input type="range" id="rate_our_work" name="user_rate_our_work" >
+                            <label>How do you rate our work?
+                                <br>
+                                <input type="range" name="user_rate_our_work" >
+                            </label>
                         </div>
                 </fieldset>
                 <fieldset>
                     <legend>Your comments:</legend>
                         <div>
-                            <label for="comments"></label>
-                            <textarea type="comments" id="comments" name="user_comments" placeholder="Comments"></textarea>
+                            <label>
+                            <textarea type="comments" name="user_comments" placeholder="Comments"></textarea>
+                            </label>
                         </div>
                 </fieldset>
                 <div class="button">
